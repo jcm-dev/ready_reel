@@ -12,12 +12,48 @@
 body {
     font-family: "Raleway", sans-serif;
     background: #fff;
-    color: #333;
+    color: #444;
     line-height: 1.6;
+}
+
+ul {
+    list-style: none;
 }
 
 body .logo {
     font-family: "Rock Salt", cursive;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar .logo {
+    font-weight: 100;
+}
+
+.navbar a:hover {
+    border: #555 2px solid;
 }
 
 .showcase {
