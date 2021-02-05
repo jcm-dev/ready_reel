@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -12,22 +13,22 @@
         <link rel="stylesheet" href="css/navbar.css" />
         <link rel="stylesheet" href="css/utilities.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <title>Document</title>
+        <title>Welcome To Ready Reel</title>
     </head>
 
-    <!-- Navbar -->
     <body>
         <header class="showcase">
+            <!-- navbar -->
             <div id="navbar" class="navbar">
                 <h1 class="logo">
                     <span class="text-primary">
-                        <i class="fas fa-headphones-alt"></i>
-                        Ready</span
-                    >Reel
+                        <i class="fas fa-headphones-alt"></i
+                    ></span>
+                    Ready <span class="text-primary">Reel</span>
                 </h1>
                 <nav>
                     <ul>
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home" class="current">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -40,11 +41,63 @@
                     It All Comes Back To
                     <span class="text-primary">Analog</span>
                 </h1>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Sequi, distinctio.
-                </p>
+                <p>Bring your recordings to life.</p>
             </div>
         </header>
+
+        <main>
+            <!-- our mission -->
+            <section class="flex-columns">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-1">
+                            <img
+                                src="images/radio_wall.jpg"
+                                alt="Vintage Radios"
+                            />
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-2 bg-primary">
+                            <h1>Our Mission</h1>
+                            <h2>A classic touch to your modern cut.</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Beatae veritatis cumque nobis,
+                                earum odit voluptate labore recusandae nemo
+                                accusamus fugiat maxime est dolorem quos sint!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- our process -->
+            <section class="flex-columns flex-reverse">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-1">
+                            <img src="images/piano.jpg" alt="Piano" />
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-2 bg-secondary">
+                            <h1>Our Process</h1>
+                            <h2>
+                                Tube mastering through magnetic tape conversion.
+                            </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Beatae veritatis cumque nobis,
+                                earum odit voluptate labore recusandae nemo
+                                accusamus fugiat maxime est dolorem quos sint!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer></footer>
     </body>
 </html>
