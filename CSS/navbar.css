@@ -16,7 +16,7 @@
 .navbar a {
     color: #fff;
     padding: 10px 20px;
-    margin: 0 5px;
+    margin: 0px 5px;
 }
 
 .navbar ul {
@@ -28,11 +28,9 @@
 }
 
 .navbar a:hover {
-    border-bottom: #555 2px solid;
+    border-bottom: #bd2b32 2px solid;
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.current {
-    background: #444;
-    color: #f7c08a;
+.navbar ul li a:hover:after {
+    width: 100%;
 }
