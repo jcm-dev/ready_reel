@@ -1,3 +1,56 @@
 .text-primary {
     color: #bd2b32;
 }
+
+.bg-primary {
+    background-color: #bd2b32;
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #db8c24da;
+    color: #fff;
+}
+
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+.flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-columns .column-2 h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+}
